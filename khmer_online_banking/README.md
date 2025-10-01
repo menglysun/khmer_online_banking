@@ -75,7 +75,7 @@ INSERT INTO "public"."role" ("id", "status", "version", "created_at", "updated_a
 ----
 
 ---
-6. **📂 Project Structure**
+# 📂 Project Structure**
 ├── pom.xml / build.gradle # Build tool config
 ├── README.md # Documentation
 ├── src
