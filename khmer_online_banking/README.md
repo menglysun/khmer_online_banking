@@ -26,8 +26,8 @@ Before running the project, ensure you have installed:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/cheadarika/online-banking-system-project.git
-cd online-banking-system-project
+git clone https://github.com/menglysun/khmer_online_banking.git
+cd khmer_online_banking
 ```
 
 2. **Configure Database**
@@ -36,7 +36,7 @@ Update your src/main/resources/application.properties:
 
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/online_banking_db
-spring.datasource.username=postgres
+spring.datasource.username=user
 spring.datasource.password=DB_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -82,13 +82,13 @@ POST http://localhost:8082/api/auth/register
 
 ```json
 {
-    "username": "darika",
-    "password": "darika@123",
-    "firstName": "Darika",
-    "lastName": "Chea",
-    "phoneNumber": "096123456",
-    "email": "darika@gmail.com",
-    "gender": "FEMALE",
+    "username": "userTest",
+    "password": "12345",
+    "firstName": "User",
+    "lastName": "Test",
+    "phoneNumber": "0973545458",
+    "email": "userTest@gmail.com",
+    "gender": "MALE",
     "roles": [
         {
             "id": 2,
@@ -107,8 +107,8 @@ POST http://localhost:8082/api/auth/login
 ```
 ```json
 {
-    "usernameOrEmail": "darika",
-    "password": "darika@123"
+    "usernameOrEmail": "userTest",
+    "password": "123456"
 }
 ```
 
@@ -116,6 +116,6 @@ POST http://localhost:8082/api/auth/login
 
 ## Author
 
-**CHEA Darika**
+**Sun Mengly**
 
 ---
