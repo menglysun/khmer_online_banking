@@ -76,6 +76,7 @@ INSERT INTO "public"."role" ("id", "status", "version", "created_at", "updated_a
 
 ---
 # 📂 Project Structure**
+```text
 ├── pom.xml / build.gradle # Build tool config
 ├── README.md # Documentation
 ├── src
@@ -107,6 +108,8 @@ INSERT INTO "public"."role" ("id", "status", "version", "created_at", "updated_a
 │ └── java
 │ └── com.example.project
 │ └── UserServiceTests.java
+```
+
 ---
 
 # Sample User Registration
