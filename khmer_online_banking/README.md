@@ -74,6 +74,41 @@ INSERT INTO "public"."role" ("id", "status", "version", "created_at", "updated_a
 
 ----
 
+---
+📂 Project Structure
+├── pom.xml / build.gradle # Build tool config
+├── README.md # Documentation
+├── src
+│ ├── main
+│ │ ├── java
+│ │ │ └── com.mengly.dev.khmer_online_banking
+│ │ │ ├── ProjectApplication.java # Main Spring Boot entry
+│ │ │
+│ │ │ ├── controller # Controllers (C)
+│ │ │ │ └── UserController.java
+│ │ │
+│ │ │ ├── model # Models / Entities (M)
+│ │ │ │ └── User.java
+│ │ │
+│ │ │ ├── service # Business logic
+│ │ │ │ └── UserService.java
+│ │ │
+│ │ │ ├── repository # Data access layer
+│ │ │ │ └── UserRepository.java
+│ │ │
+│ │ │ └── config # Config classes (security, beans, etc.)
+│ │ │ └── WebConfig.java
+│ │ │
+│ │ └── resources
+│ │ ├── application.properties / application.yml
+│ │ ├── static # Static files (css, js, images)
+│ │
+│ └── test
+│ └── java
+│ └── com.example.project
+│ └── UserServiceTests.java
+---
+
 # Sample User Registration
 
 ```
